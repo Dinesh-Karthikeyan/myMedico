@@ -42,12 +42,14 @@ class _Bot1State extends State<Bot1> {
                     CircleAvatar(
                       backgroundColor: Color.fromARGB(255, 226, 193, 230),
                       radius: 30,
+                      backgroundImage: NetworkImage(
+                          'https://w0.peakpx.com/wallpaper/459/1009/HD-wallpaper-indian-model-boy-cute-u-wall.jpg'),
                     ),
                     SizedBox(
                       width: 20,
                     ),
                     Text(
-                      'Hiii User ',
+                      'Hiii Chetan ',
                       style: TextStyle(
                           fontSize: 26,
                           color: Color.fromARGB(255, 252, 251, 249)),
